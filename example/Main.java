@@ -118,11 +118,11 @@ public class Main {
 
         switch (choice) {
             case 1:
-                return new Gall(10, 9, 0, 7, 1, 6, 15, 4, 90, true, 100, true);
+                return new Gall(10, 9, 0, 7, 1, 30, 70, 4, 90, true, 100, true);
             case 2:
-                return new Dymakher(8, 7, 0, 10, 1, 7, 15, 7, 60, false, 100, false);
+                return new Dymakher(8, 7, 0, 10, 1, 29, 85, 7, 60, false, 100, false);
             case 3:
-                return new Thraex(8, 8, 0, 4, 1, 7, 15, 0, 110, false, 100, false);
+                return new Thraex(8, 8, 0, 4, 1, 23, 100, 0, 110, false, 100, false);
             default:
                 System.out.println("Некоректний вибір. Гра завершена.");
                 System.exit(0);
